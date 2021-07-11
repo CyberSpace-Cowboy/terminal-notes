@@ -2,6 +2,9 @@
 
 This is a very primitive note-taking app that works in the terminal. I wrote it in less than 15 minutes using Python.
 
+
+## Implementation 
+
 It's implemented in a very trivial way:
 
 1. It just creates text files in the same directory as the program
