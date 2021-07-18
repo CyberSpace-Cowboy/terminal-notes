@@ -1,7 +1,7 @@
 # Terminal Notes
 
 
-This is a very primitive note-taking app that works inside a terminal/command prompt I wrote it in less than 15 minutes using Python.
+This is a very primitive note-taking app that works inside a terminal/command prompt, I wrote it in less than 15 minutes using Python.
 
 
 ## Implementation 
