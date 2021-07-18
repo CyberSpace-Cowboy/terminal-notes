@@ -1,6 +1,6 @@
 # Terminal Notes
 
-This is a very primitive note-taking app that works in the terminal. I wrote it in less than 15 minutes using Python.
+This is a very primitive note-taking app that works inside a terminal (command prompt). I wrote it in less than 15 minutes using Python.
 
 
 ## Implementation 
@@ -20,5 +20,9 @@ python Notes.py
 
 P.S. I know that it's definitely not the most convinient note-taking app to use, and the standard "TextEdit" that ships with MacOS and 
 "Notepad" that ships with Windows are much better in terms of features (I'm not even talking about OneNote, Evernote, etc),
-but I still prefer to take notes in a terminal for some reason...
+but I still prefer this to take notes in a terminal for several reasons:
+
+- Storing notes in a .txt format allows for easy text analysis
+- I like how terminal looks overall
+- Even if a program doesn't have a beautiful, fancy GUI, and complex, long codebase behind it I still like the fact that I use the program I wrote by myself on a day-to-day basis and find it somehow useful... 
 
