@@ -52,7 +52,7 @@ def Read_Notes():
 			print(str(i) + " - " + note.split('.txt')[0])
 			i += 1
 
-		#to input a number of iterations
+		#to get an index of a desired note
 		while True:
 			try:
 				num = int(input("\n Type the number of the note: "))
