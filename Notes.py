@@ -70,7 +70,6 @@ def Read_Notes():
 def Choose_Action():
 	print("\n" + "TERMINAL NOTES".center(columns) + "\n")
 
-
 	while(True):
 		mode = input("\n Choose between Write mode and Read mode (W/R): ")
 		if mode.lower() == "w":
