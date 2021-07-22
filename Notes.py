@@ -1,8 +1,8 @@
 #Python Terminal Notes
 
-#for outputing only text files
+# for outputing only text files
 import glob
-#for centering output
+# for centering output
 import shutil
 columns = shutil.get_terminal_size().columns
 
