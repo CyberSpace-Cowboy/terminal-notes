@@ -1,8 +1,8 @@
 #Python Terminal Notes
 
-#for outputing only text files
+# for outputing only text files
 import glob
-#for centering output
+# for centering output
 import shutil
 columns = shutil.get_terminal_size().columns
 
@@ -69,7 +69,6 @@ def Read_Notes():
 
 def Choose_Action():
 	print("\n" + "TERMINAL NOTES".center(columns) + "\n")
-
 
 	while(True):
 		mode = input("\n Choose between Write mode and Read mode (W/R): ")
