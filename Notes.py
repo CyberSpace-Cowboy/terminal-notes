@@ -13,7 +13,7 @@ def Write_Notes():
 	file = open(f_name + '.txt', 'w')
 	#Specifying a title
 	title = input("\n Specify the title: ")
-	file.write(title)
+	file.write(title.center(columns))
 	#Writing the actual note
 	print("\n Write your note: \n")
 	lines = ['\n']
@@ -29,7 +29,7 @@ def Write_Notes():
 	file.close()
 	
 	#Asking if a user wants to see his note?
-	ask = input("\n Wanna see your note? (y/n): ")
+	ask = input("\n Wanna see your note? (y/n): ").lower()
 	if ask == "y":
 		print("\n Here is Your Note: \n")
 	elif ask == "n":
