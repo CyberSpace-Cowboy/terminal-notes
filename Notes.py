@@ -40,6 +40,9 @@ def Write_Notes():
 	print(file.read())
 
 def Read_Notes():
+	#grabbing files with .txt
+	notes = sorted(glob.glob("*.txt"))
+
 	#to check if there's no .txt files
 	if [] == glob.glob("*.txt"):
 		print("Sorry, there are no notes to read, we suggest you to take a note first")
@@ -48,7 +51,7 @@ def Read_Notes():
 	#to get the file name to output
 		print("\n Please, choose which notes you want to read: \n")
 		i = 1
-		for note in glob.glob("*.txt"):
+		for note in notes:
 			print(str(i) + " - " + note.split('.txt')[0])
 			i += 1
 
@@ -56,14 +59,14 @@ def Read_Notes():
 		while True:
 			try:
 				num = int(input("\n Type the number of the note: "))
-				print("\n"+ glob.glob("*.txt")[num-1].split('.txt')[0].upper().center(columns) + "\n")
+				print("\n"+ notes[num-1].split('.txt')[0].upper().center(columns) + "\n")
 				break
 			except ValueError:
 				print("\n Please input integer only...")
 				continue
 				
 	#grabbing the file name to read it
-	f_name = glob.glob("*.txt")[num-1]		
+	f_name = notes[num-1]		
 	file = open(f_name, "r")
 	print(file.read())
 
